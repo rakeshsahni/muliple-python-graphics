@@ -1,0 +1,91 @@
+# 1st drawing
+import turtle as t
+t.speed(0)
+
+def single() :
+    t.fd(200)
+    
+for i in range (1,91) :
+    t.right(4*i)
+    single()
+    t.up()
+    t.home()
+    t.down()
+
+# 2nd drawing
+import turtle as t
+t.speed(0)
+
+def single() :
+    t.fd(200)
+    t.circle(100)
+    
+for i in range (1,91) :
+    t.right(4*i)
+    single()
+    t.up()
+    t.home()
+    t.down()
+
+# 3rd drawing
+import turtle as t
+t.speed(0)
+
+def single() :
+    t.fd(200)
+    t.circle(100)
+    t.circle(-50)
+    
+for i in range (1,91) :
+    t.right(4*i)
+    single()
+    t.up()
+    t.home()
+    t.down()
+
+# 4th drawing
+import turtle as t
+t.speed(0)
+
+def single() :
+    t.fd(200)
+    t.right(45)
+    t.fd(100)
+    
+for i in range (1,91) :
+    t.right(4*i)
+    single()
+    t.up()
+    t.home()
+    t.down()
+
+# 5th drawing
+import turtle as t
+t.speed(0)
+
+def single() :
+    t.fd(200)
+    t.circle(100,180)
+    t.circle(-50,180)
+    
+for i in range (1,91) :
+    t.right(4*i)
+    single()
+    t.up()
+    t.home()
+    t.down()
+    
+# 6th drawing
+import turtle as t
+t.speed(0)
+
+def single() :
+    t.fd(200)
+    t.circle(100,360,10)
+    
+for i in range (1,91) :
+    t.right(4*i)
+    single()
+    t.up()
+    t.home()
+    t.down()
